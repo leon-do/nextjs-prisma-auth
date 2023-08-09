@@ -1,4 +1,4 @@
-# NextJS Supabase
+# NextJS Supabase Auth
 
 ## Create .env.local
 
