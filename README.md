@@ -4,6 +4,8 @@
 
 ## Create .env.local
 
+<img width="1391" alt="Screenshot 2023-08-09 at 1 04 58 AM" src="https://github.com/leon-do/nextjs-supabase-auth/assets/19412160/ae904860-40dd-4d2d-962b-2070b4bd896a">
+
 ```
 NEXT_PUBLIC_SUPABASE_URL=https://falpiwjvcgbiiuqjqdvx.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGci...
@@ -11,6 +13,8 @@ SUPABASE_SERVICE_ROLE=eyJhbGc...
 ```
 
 ## Supabase Query
+
+<img width="1386" alt="Screenshot 2023-08-09 at 1 07 32 AM" src="https://github.com/leon-do/nextjs-supabase-auth/assets/19412160/c892e18d-5372-4353-aaed-9449fccd5f9a">
 
 ```sql
 create view public.users as select * from auth.users;
