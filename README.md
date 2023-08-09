@@ -21,3 +21,8 @@ revoke all on public.users from anon, authenticated;
 npm install
 npm run dev
 ```
+
+## Paths
+
+`/admin/update` will update user's metadata
+
