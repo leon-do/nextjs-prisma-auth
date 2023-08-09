@@ -9,7 +9,10 @@ export default function Home() {
   const supabase = createClientComponentClient<any>();
 
   useEffect(() => {
-    setIsClient(true);
+    // if user is logged in, redirect to account page, else show login page
+    supabase.auth.getSession().then(({ data }) => {
+      data?.session ? (window.location.href = "/account") : setIsClient(true);
+    });
   }, []);
 
   return (
